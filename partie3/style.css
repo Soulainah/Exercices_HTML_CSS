@@ -1,0 +1,28 @@
+body {
+    margin-bottom: 3%;
+    }
+form {
+    border: 1px solid black;
+    border-radius: 10px; 
+    width: 30%;
+    box-shadow:10px 10px 20px black;
+    padding: 10px;
+    line-height: 25px;
+    }
+.identite {
+    background-color: rgb(73, 127, 177);
+    }
+.livraison {
+    background-color: rgb(180, 63, 135);
+    }
+.information {
+    background-color: rgb(27, 114, 66);
+    }
+.submit {
+    border: 1px solid rgb(50, 53, 53); 
+    border-radius:5px;
+    background-color: dimgray;
+    margin-top: 10px;
+    width: 5%;
+    height: 30px;
+    }

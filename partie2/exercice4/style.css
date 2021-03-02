@@ -1,0 +1,26 @@
+body {
+    margin-bottom: 3%;
+}
+    /* border radius pour arrondi - box-shadow pour ombre*/
+    /*padding pour faire une marge interieur - margin faire une marge exterieur - line-height pour entre les textes*/
+form.formulaire {
+    border: 2px solid black;
+    border-radius: 10px; 
+    width: 20%;
+    background-color: darkslategray;
+    box-shadow:10px 10px 20px black;
+    padding: 10px;
+    line-height: 25px;
+}
+.submit {
+    border: 2px solid rgb(119, 132, 133); 
+    border-radius:5px;
+    background-color: dimgray;
+    width: 30%;
+}
+input {
+    width: 50%;
+    border: 2px solid rgb(119, 132, 133);
+    border-radius:5px;
+    display: block;
+}

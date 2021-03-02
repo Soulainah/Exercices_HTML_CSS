@@ -1,0 +1,7 @@
+/* pour que les lignes du tableau ne se doublent pas */
+table {
+    border-collapse: collapse;
+    } 
+th , td {
+    border: 2px solid black;
+    } 

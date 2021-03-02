@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Exercice creation formulaire</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+    <body>
+        </table>
+            <h1>Formulaire</h1>
+                <form class="identite">
+                    <h2>Votre identité</h2>
+                        <ol>
+                            <li>
+                                <label for="nom">Nom:</label>
+                                    <input type="text" name="nom" id="nom" placeholder="ex: Nom"/>
+                            </li>
+                            <li>
+                                <label for="prenom">Prénom :</label>
+                                    <input type="text" name="prenom" id="prenom" placeholder="ex: Prénom"/>
+                            </li>
+                            <li>
+                                <label for="adresse">Adresse mail :</label>
+                                    <input type="text" name="adresse" id="adresse" placeholder="ex: Adresse mail"/>
+                            </li>
+                        </ol>
+                </form>
+                <form class="livraison">
+                    <h2>Adresse de livraison</h2>
+                        <ol>
+                            <li>
+                                <label for="adresse">Adresse :</label>
+                                    <textarea name="message" rows="5" cols="20" id="adresse"></textarea>  
+                            </li>
+                            <li>
+                                <label for="postal">Code postal :</label>
+                                    <input type="text" name="postal" id="postal" placeholder="ex: Code postal"/>
+                            </li>
+                            <li>
+                                <label for="ville">Ville :</label>
+                                    <input type="text" name="ville" id="ville" placeholder="ex: Ville"/>
+                            </li>
+                        </ol>
+                </form>
+                <form class="information">
+                    <h2>Adresse de livraison</h2>
+                        <ol>
+                            <li>
+                                <p>Type de carte bancaire :</p>
+                            </li>
+                            <li>
+                                <input type="radio" name="carte" id="VISA">
+                                    <label for="VISA">VISA</label>
+                            </li>
+                            <li>
+                                <input type="radio" name="carte" id="MASTERCARD">
+                                    <label for="MASTERCARD">Mastercard</label>
+                            </li>        
+                            <li>
+                                <label for="CB">Numero de carte :</label>
+                                    <input type="text" name="CB" id="CB" placeholder="ex: Numero de carte"/>
+                            </li>
+                            <li>
+                                <label for="securite">Numéro de sécurité :</label>
+                                    <input type="text" name="securite" id="securite" placeholder="ex: Numéro de sécurité"/>
+                            </li>
+                            <li>
+                                <label for="titulaire">Nom du titulaire :</label>
+                                    <input type="text" name="titulaire" id="titulaire" placeholder="ex: Nom du titulaire"/>
+                            </li>
+                        </ol>
+                </form>
+                    <input type="submit" value="J'achète !" class="submit"/>        
+    </body>
+</html>
