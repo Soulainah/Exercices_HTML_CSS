@@ -1,8 +1,8 @@
 .container{
   display: flex;
-  flex-direction: column-reverse;
-  justify-content: center;
-  align-items: center;
+  flex-direction: column-reverse; /* inverse les elements en colonne */
+  justify-content: center; /* centrer les contenus */
+  align-items: center; /* centrer les elements */
   width: 70%;
   height: 650px;
   height: 100%;
@@ -18,7 +18,7 @@
 .rowEye{
   display: flex;
   flex-direction: row;
-  justify-content: space-around;
+  justify-content: space-evenly;
   width: 70%;
 }
 .mouth{
@@ -33,9 +33,11 @@
   border-radius: 2vh 2vh;
 }
 .teeth{
-  flex-grow: 3;
+  flex-grow: 1;
+  align-self: flex-end;
   border: 2px solid black;
   width: 12%;
+  flex-basis: 11%;
   height: 8vh;
 }
 .noze{
