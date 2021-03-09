@@ -1,0 +1,54 @@
+.container{
+  display:flex;
+  justify-content: space-around; /* espace de chaque cote et entre les blocs */
+  height: 500px; /* une hauteur dans notre border */
+  align-items: center; /* centrer les enfants */
+  border: 1px solid blue;
+    }
+.carre{
+    width: 15%;
+    height: 200px;
+    text-align: center;
+    border: 3px solid rgb(101, 102, 100);
+    background-color: rgb(59, 169, 177);
+    }
+/* Les media reste les memes mais les width et height changent */
+/* Vesion tablette */
+@media screen and (max-width: 768px) 
+{
+.container{
+    display: flex;
+    flex-wrap: wrap; /* retour a la ligne */
+    align-content: center; /* pas d'espace entre les blocs */
+    }
+.carre {
+    width: 30%;
+    height: 100px;
+    }
+}
+/* Vesion portable */
+@media screen and (max-width: 425px) 
+{
+.container{
+    display: flex;
+    flex-wrap: wrap; /* retour a la ligne */
+    align-content: center; /* pas d'espace entre les blocs */
+    }
+.carre {
+    width: 40%;
+    height: 100px;
+    }
+}
+/* Vesion portable petit ecran */
+@media screen and (max-width: 320px) 
+{
+.container{
+    display: flex;
+    flex-wrap: wrap; /* retour a la ligne */
+    align-content: center; /* pas d'espace entre les blocs */
+    }
+.carre {
+    width: 50%;
+    height: 50px;
+    }
+}

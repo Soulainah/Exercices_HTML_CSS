@@ -1,0 +1,8 @@
+.echec{
+    display:flex;
+    flex-wrap: wrap-reverse; /* changer l'ordre sur l'horizontal */
+    flex-direction: column; /* mettre en colonne  */
+    justify-content: space-between; /* espace entre les blocs*/
+    width: 100%;
+    height: 200px;
+    }

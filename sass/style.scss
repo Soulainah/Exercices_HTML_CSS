@@ -1,0 +1,45 @@
+//Créer des variables contenant des couleurs
+
+$titre : rgb(91, 122, 34);
+$soustitre: rgb(85, 157, 180);
+$paragraphe: rgb(238, 159, 40);
+
+h3 {
+    color: $titre;
+}
+h4 {
+    color: $soustitre;
+}
+p {
+    color: $paragraphe;
+}
+
+//Créer plusieurs mixins changer taille police et couleur
+@mixin important {
+    font-size: 25px;
+    font-family: 'Times New Roman', Times, serif;
+    color: rgb(209, 49, 49);
+    }
+
+h1 {
+    @include important;
+}
+
+//Couleur et text decoration sur les "li"
+div{
+    li{
+        color:rgb(194, 112, 194);
+        background-color: peachpuff; 
+        text-decoration: underline;
+        line-height: 35px;
+        }
+    }
+//Créer un hover sur un paragraphe, text decoration et une couleur
+div{
+    li:hover{
+        color:rgb(230, 101, 26);
+        background-color: rgb(136, 126, 126);
+        text-decoration: underline;
+        line-height: 35px;
+    }
+}

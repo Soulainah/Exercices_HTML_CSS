@@ -1,0 +1,32 @@
+h3 {
+  color: #5b7a22;
+}
+
+h4 {
+  color: #559db4;
+}
+
+p {
+  color: #ee9f28;
+}
+
+h1 {
+  font-size: 25px;
+  font-family: 'Times New Roman', Times, serif;
+  color: #d13131;
+}
+
+div li {
+  color: #c270c2;
+  background-color: peachpuff;
+  text-decoration: underline;
+  line-height: 35px;
+}
+
+div li:hover {
+  color: #e6651a;
+  background-color: #887e7e;
+  text-decoration: underline;
+  line-height: 35px;
+}
+/*# sourceMappingURL=style.css.map */
